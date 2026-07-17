@@ -255,41 +255,41 @@ tr:hover td {
 
 }
 @media (max-width: 768px) {
-        .nav-container {
-                flex-direction: column;
-                        gap: 12px;
-                                align-items: flex-start;
-                                    }
+    .nav-container {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
 
-                                        .main-container {
-                                                padding: 0 16px;
-                                                        margin: 24px auto;
-                                                            }
+    .main-container {
+        padding: 0 16px;
+        margin: 24px auto;
+    }
 
-                                                                .modal-content {
-                                                                        width: 90%;
-                                                                            }
+    .modal-content {
+        width: 90%;
+    }
 
-                                                                                table thead {
-                                                                                        display: none;
-                                                                                            }
+    table thead {
+        display: none;
+    }
 
-                                                                                                table, tbody, tr, td {
-                                                                                                        display: block;
-                                                                                                                width: 100%;
-                                                                                                                    }
+    table, tbody, tr, td {
+        display: block;
+        width: 100%;
+    }
 
-                                                                                                                        tr {
-                                                                                                                                margin-bottom: 16px;
-                                                                                                                                        border: 1px solid #29292e;
-                                                                                                                                                border-radius: 8px;
-                                                                                                                                                        padding: 12px;
-                                                                                                                                                            }
+    tr {
+        margin-bottom: 16px;
+        border: 1px solid #29292e;
+        border-radius: 8px;
+        padding: 12px;
+    }
 
-                                                                                                                                                                td {
-                                                                                                                                                                        border-bottom: none;
-                                                                                                                                                                                padding: 8px 0;
-                                                                                                                                                                                        display: flex;
-                                                                                                                                                                                                justify-content: space-between;
-                                                                                                                                                                                                    }
-                                                                                                                                                                                                    }
+    td {
+        border-bottom: none;
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
