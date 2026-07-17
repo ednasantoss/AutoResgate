@@ -133,22 +133,22 @@ body {
     color: #e1e1e6;
 }
 @media (max-width: 480px) {
-        .auth-card {
-                padding: 24px;
-                        border-radius: 6px;
-                            }
+    .auth-card {
+        padding: 24px;
+        border-radius: 6px;
+    }
 
-                                .auth-header h2 {
-                                        font-size: 22px;
-                                            }
+    .auth-header h2 {
+        font-size: 22px;
+    }
 
-                                                .auth-header p {
-                                                        font-size: 13px;
-                                                            }
-                                                            }
+    .auth-header p {
+        font-size: 13px;
+    }
+}
 
-                                                            @media (min-width: 768px) {
-                                                                .auth-card {
-                                                                        max-width: 480px;
-                                                                            }
-                                                                            }
+@media (min-width: 768px) {
+    .auth-card {
+        max-width: 480px;
+    }
+}
