@@ -4,22 +4,12 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 body {
     background-color: #121214;
     color: #e1e1e6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-image: url('../img/foto.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .auth-container {
@@ -27,7 +17,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    background-image: url('../img/foto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .auth-card {
