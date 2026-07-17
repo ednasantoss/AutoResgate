@@ -11,16 +11,17 @@
 <body>
 
     <header class="navbar">
-        <div class="container nav-container">
-            <div class="logo"><span>Chamados para conserto automotivo</span></div>
-            <nav class="nav-links">
-                <a href="#sobre">Sobre</a>
-                <a href="#contato">Contato</a>
-                <button onclick="redirecionar('login-cliente')" class="btn btn-outline">Login Cliente</button>
-                <button onclick="redirecionar('cadastro-cliente')" class="btn btn-primary">Cadastrar-se</button>
-                <button onclick="redirecionar('login-funcionario')" class="btn btn-accent">Portal Funcionário</button>
-            </nav>
-        </div>
+    <div class="container nav-container">
+        <div class="logo"><span>Chamados para conserto automotivo</span></div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <button onclick="redirecionar('login-cliente')" class="btn btn-outline">Login Cliente</button>
+            <button onclick="redirecionar('cadastro-cliente')" class="btn btn-primary">Cadastrar-se</button>
+            <button onclick="redirecionar('login-funcionario')" class="btn btn-accent">Portal Funcionário</button>
+        </nav>
+    </div>
     </header>
 
     <section class="hero">
